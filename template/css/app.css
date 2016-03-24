@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+  body{
+
+  background-image: url(../images/лала.jpg);
+  background-repeat: no-repeat;
+  height: 100%
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  margin: 25px;
+padding-top: 300px;
+  position: relative;
+  color: rgb(191, 85, 255)
+
+}
+.container{
+
+
+  font-family: Argentine Bold;
+}
+img{
+  width: auto;
+  height: auto;
+}
+h1{
+  font-size: 30px;
+  font-family: cursive;
+  color: rgb(47, 108, 164)
+}
+h2{font-size: 20px;
+  font-family: monospace;;
+color: rgb(255, 0, 153)
+}
+h3{
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
