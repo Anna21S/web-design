@@ -1,11 +1,21 @@
 * {
   box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+}
 .main {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   background: rgb(196, 231, 154);
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main > div {
+  max-width: 1000px;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -30,11 +40,13 @@
   margin: 5px;
 }
 .intro {
-  width: 450px;
+  width: 100%;
   height: 150px;
   background: rgb(41, 77, 0);
   margin-bottom: 20px;
   margin-top: 15px;
+  align-items: center;
+  justify-content: center;
 }
 .header {
   width: 130px;
@@ -48,19 +60,21 @@
   display: flex;
   margin-bottom: 30px;
 }
-.primary-item {
-  width: 170px;
-  background: rgb(41, 77, 0);
-  margin-right: 20px;
-  flex-grow: 2;
-}
 .secondary-item {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 100px;
   background: rgb(41, 77, 0);
   margin-right: 20px;
   flex-grow: 1;
 }
 .secondary-item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 620px) {
+  .menu {
+    width: 150px;
+  }
+  .intro {
+    width: 450px;
+  }
 }

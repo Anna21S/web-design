@@ -1,10 +1,20 @@
 * {
   box-sizing: border-box;
 }
+html, body {
+  height: 100%;
+}
 .main {
-  width: 500px;
-  height: 510px;
+  width: 100%;
+  height: 100%;
   background: rgb(196, 231, 154);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main > div {
+  max-width: 1000px;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -14,7 +24,8 @@
   padding: 15px;
 }
 .container {
-  width: 500px;
+  width: 100%;
+  ;
   margin: 0 auto;
 }
 .logo {
@@ -33,7 +44,7 @@
   margin: 5px;
 }
 .intro {
-  width: 470px;
+  width: 100%;
   height: 300px;
   background: rgb(41, 77, 0);
   margin-bottom: 20px;
@@ -43,20 +54,35 @@
 .secondary {
   display: flex;
   margin-bottom: 10px;
-  padding: 15px;
+  align-items: center;
+  justify-content: center;
 }
 .secondary-item {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: 100px;
   background: rgb(41, 77, 0);
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
   flex-grow: 1;
 }
 .footer {
-  width: 500px;
+  width: 100%;
   height: 10px;
   background: rgb(41, 77, 0);
+  align-items: center;
+  justify-content: center;
 }
 .secondary-item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 620px) {
+  .container {
+    width: 150px;
+  }
+  .intro {
+    width: 450px;
+  }
+  .footer {
+    width: 500px;
+  }
 }
