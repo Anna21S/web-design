@@ -30,7 +30,7 @@ html, body {
 }
 .logo {
   width: 200px;
-  height: 30px;
+  height: 40px;
   background: rgb(71, 116, 19);
 }
 .menu {
@@ -39,36 +39,35 @@ html, body {
 .menu-item {
   flex-direction: row;
   width: 40px;
-  height: 20px;
+  height: 40px;
   background: rgb(107, 154, 51);
   margin: 5px;
+  margin-top: 2px;
 }
 .intro {
   width: 100%;
   height: 300px;
   background: rgb(41, 77, 0);
-  margin-bottom: 20px;
-  margin-top: 15px;
-  margin-left: 15px;
+  margin: 10px;
 }
 .secondary {
   display: flex;
-  margin-bottom: 10px;
   align-items: center;
   justify-content: center;
+  margin: 5px;
 }
 .secondary-item {
   width: 100%;
   height: 100px;
   background: rgb(41, 77, 0);
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 5px;
   flex-grow: 1;
 }
 .footer {
   width: 100%;
-  height: 10px;
+  height: 100px;
   background: rgb(41, 77, 0);
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
 }

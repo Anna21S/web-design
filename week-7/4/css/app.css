@@ -26,7 +26,7 @@ html, body {
 }
 .logo {
   width: 100px;
-  height: 40px;
+  height: 50px;
   background: rgb(71, 116, 19);
 }
 .menu {
@@ -41,27 +41,28 @@ html, body {
 }
 .intro {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background: rgb(41, 77, 0);
-  margin-bottom: 20px;
-  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 25px;
   align-items: center;
   justify-content: center;
 }
 .header {
-  width: 130px;
+  width: 30px;
   height: 20px;
   background: rgb(41, 77, 0);
-  margin-bottom: 20px;
-  margin-top: 15px;
-  align-items: flex-start;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
 }
 .secondary {
   display: flex;
   margin-bottom: 30px;
+  margin-top: 15px;
 }
 .secondary-item {
-  width: 50px;
+  width: 100px;
   height: 100px;
   background: rgb(41, 77, 0);
   margin-right: 20px;

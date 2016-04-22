@@ -42,7 +42,7 @@ html, body {
 }
 .intro {
   width: 470px;
-  height: 230px;
+  height: 350px;
   background: rgb(41, 77, 0);
   margin-bottom: 20px;
   margin-top: 15px;
@@ -52,7 +52,7 @@ html, body {
 }
 .secondary-item {
   width: 150px;
-  height: 100px;
+  height: 150px;
   background: rgb(41, 77, 0);
   flex-grow: 1;
   margin-right: 15px;

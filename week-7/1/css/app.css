@@ -14,14 +14,14 @@ html, body {
   justify-content: center;
 }
 .header {
-  width: 400px;
-  height: 60px;
+  width: 500px;
+  height: 40px;
   background: rgb(41, 77, 0);
   margin-bottom: 20px;
 }
 .paragraph {
   width: 600px;
-  height: 100px;
+  height: 80px;
   background: rgb(148, 193, 96);
 }
 @media screen and (max-width: 620px) {
