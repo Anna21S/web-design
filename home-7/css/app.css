@@ -152,16 +152,19 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+
 }
 h1 {
   font-size: 120px;
   border-bottom: 3px;
-  border-bottom: 4px solid white;
+  border-bottom: 4px;
+  solide: white;
 }
 p {
   font-size: 20px;
   width: 70%;
   line-height: 1.5;
+
 }
 .place {
   display: flex;
@@ -206,4 +209,10 @@ a:hover {
 a {
   text-decoration: underline;
   color: inherit;
+}
+@media screen and (max-width: 620px) {
+  .head {
+    width: 150px;
+  }
+
 }
